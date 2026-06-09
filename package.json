@@ -1,0 +1,19 @@
+{
+  "name": "qa-automation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:headed:ci": "xvfb-run -a npx playwright test --headed",
+    "test:trace": "npx playwright test --trace=on",
+    "install:playwright": "npx playwright install"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^20.14.2",
+    "typescript": "^5.6.0"
+  }
+}
