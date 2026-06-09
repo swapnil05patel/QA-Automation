@@ -16,8 +16,8 @@ export default defineConfig({
     viewport: { width: 1280, height: 800 },
     actionTimeout: 0,
     ignoreHTTPSErrors: true,
-    video: 'retain-on-failure',
-    screenshot: 'only-on-failure',
+    video: 'on',
+    screenshot: 'on',
     trace: 'retain-on-failure',
     launchOptions: {
       slowMo: 100,
